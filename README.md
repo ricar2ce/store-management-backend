@@ -63,6 +63,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Frontend
+
+- You can see the frontend repo
+  at [angelitolm/store-management-app-workshop](https://github.com/angelitolm/store-management-app-workshop)
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If
