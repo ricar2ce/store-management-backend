@@ -7,6 +7,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
+    .addBearerAuth()
     .setTitle('Store Management Docs')
     .setDescription('The Store Management API description')
     .setVersion('1.0')
