@@ -10,6 +10,8 @@ async function bootstrap() {
     .setTitle('Store Management Docs')
     .setDescription('The Store Management API description')
     .setVersion('1.0')
+    .addTag('auth')
+    .addTag('users')
     .addTag('products')
     .build();
   const document = SwaggerModule.createDocument(app, config);
